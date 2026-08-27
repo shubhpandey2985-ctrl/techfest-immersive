@@ -1,75 +1,85 @@
-# React + TypeScript + Vite
+# 🌌 Astro Design — Immersive Parallax Experience
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> A cinematic, space-inspired interactive website built around layered parallax, smooth scrolling, atmospheric visuals, and immersive transitions.
 
-Currently, two official plugins are available:
+![Astro Design](https://placehold.co/1600x900/03040a/ffffff?text=ASTRO+DESIGN)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Overview
 
-## React Compiler
+**Astro Design** is an experimental immersive web experience inspired by cinematic space exploration.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The website transforms a traditional scrolling page into a layered digital environment where backgrounds, planets, terrain, typography, and interface elements move at different speeds to create a strong sense of depth.
 
-## Expanding the ESLint configuration
+The core experience is built around:
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- 🌌 Cinematic space environments
+- 🪐 Layered planetary compositions
+- 👨‍🚀 Astronaut-focused visual storytelling
+- 🏔️ Multi-layer terrain
+- 🌀 Smooth scrolling
+- 🎬 Scroll-driven animation
+- 🖱️ Interactive project cards
+- 📱 Responsive layouts
+- ♿ Reduced-motion accessibility
+- ⚡ Performance-focused animation
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+The goal is simple:
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+> **Make scrolling feel like travelling through a digital world.**
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+---
 
-```
+## 🚀 Live Experience
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+**Live Website:**  
+_Add your deployed URL here_
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+**GitHub Repository:**  
+https://github.com/shubhpandey2985-ctrl/astro-design-immersive
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+---
 
-```
+## 🎯 Project Goals
+
+This project was designed to explore how modern frontend technologies can be used to create an immersive visual experience without sacrificing usability or performance.
+
+### Primary goals
+
+1. Create a cinematic first impression.
+2. Build convincing depth using layered parallax.
+3. Make scrolling feel intentional and interactive.
+4. Combine large editorial typography with environmental imagery.
+5. Keep the interface minimal and distraction-free.
+6. Maintain responsive behavior across devices.
+7. Respect users who prefer reduced motion.
+8. Keep animations performant and maintainable.
+
+---
+
+# 🧭 Experience Structure
+
+The website is organized as a visual journey:
+
+```text
+                    HERO
+                     │
+                     ▼
+             DISCOVER NEW WORLDS
+                     │
+                     ▼
+                 DISCOVER
+                     │
+                     ▼
+                 OUR WORK
+                     │
+                     ▼
+                  ABOUT
+                     │
+                     ▼
+                 OUR TEAM
+                     │
+                     ▼
+                 CONTACT
+                     │
+                     ▼
+                  FOOTER
